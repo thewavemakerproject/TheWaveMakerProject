@@ -8,24 +8,49 @@
 </head>
 <body>
     <header>
-        <h1>WaveMaker Project</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="programs.html">Programs</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="navbar">
+            <h1>WaveMaker Project</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#volunteer">Volunteer</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section>
-            <h2>Welcome to WaveMaker Project</h2>
-            <p>This project aims to empower local communities through education and engagement.</p>
-        </section>
-    </main>
+    <section id="hero">
+        <h2>Welcome to the Future of Community Empowerment</h2>
+        <p>Join us in making a significant impact in our community through education and civic engagement.</p>
+        <button onclick="document.getElementById('contact').scrollIntoView();">Contact Us</button>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>The WaveMaker Project aims to provide comprehensive tech and financial literacy to underrepresented communities while fostering civic engagement through volunteerism and voter registration initiatives.</p>
+    </section>
+    <section id="programs">
+        <h2>Our Programs</h2>
+        <div class="program">
+            <h3>Tech Literacy</h3>
+            <p>Empowering individuals with the skills needed for tomorrow's tech-driven world.</p>
+        </div>
+        <div class="program">
+            <h3>Financial Literacy</h3>
+            <p>Teaching essential financial skills to promote economic independence and prosperity.</p>
+        </div>
+        <div class="program">
+            <h3>Cybersecurity Workshops</h3>
+            <p>Providing tools and knowledge to stay safe in an increasingly digital age.</p>
+        </div>
+    </section>
+    <section id="volunteer">
+        <h2>Get Involved</h2>
+        <p>Join our team of dedicated volunteers making a difference every day. Contact us to find out how you can contribute.</p>
+    </section>
     <footer>
         <p>&copy; 2024 WaveMaker Project. All rights reserved.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
